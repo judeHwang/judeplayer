@@ -1,5 +1,5 @@
 CC = g++
-OBJS = test.o ./3rdparty/FileUtils.o
+OBJS = test.o ./Utils/FileUtils.o
 TARGET = test
 
 .SUFFIXES:.cpp .o
