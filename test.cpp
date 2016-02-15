@@ -1,5 +1,10 @@
-#include <stdio.h>
+#include <iostream>
+#include <string>
+#include "3rdparty/FileUtils.h"
+
+using namespace std;
 
 int main(){
-	printf("Hello, world\n");
+	cout << "Hello, world" << endl;
+	FileUtils::open("asdf");
 }
